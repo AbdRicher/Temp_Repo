@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { ReactTyped } from "react-typed";
 import { useNavigate } from "react-router-dom";
-import {Footer,LogoText} from "../resuablecode"
+import {Footer,LogoText} from "./resuablecode"
 
 const Login = () => {
   const navigate = useNavigate();
