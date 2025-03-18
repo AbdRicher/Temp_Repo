@@ -1,0 +1,47 @@
+
+
+.input-field{
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.checkbox{
+ justify-self: center;
+  width: 100%;
+
+}
+
+.sign-up-btn{
+  padding: 12px;
+}
+
+.logo{
+  position: absolute;
+   top:0;
+    right:170;
+}
+
+.right{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+
+
+  .logo{
+    display: flex;
+    justify-content: start;
+    padding: 12px;
+    
+    
+  }
+  
+
+
+}
