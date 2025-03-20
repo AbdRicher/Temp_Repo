@@ -13,7 +13,8 @@ function Register() {
 
   const onSubmit = async (data) => { 
     try {
-      const response = await fetch("http://localhost:3000/register", { 
+      const response = await fetch("http://localhost:3000/register", 
+        { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -34,7 +35,6 @@ function Register() {
   };
   
   
-
   const texts = [
     "Welcome!",
     "React Developer",

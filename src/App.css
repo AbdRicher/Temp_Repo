@@ -1,0 +1,168 @@
+.Maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(83,28,110);
+    background: linear-gradient(90deg, rgba(83,28,110,1) 0%, rgba(145,39,189,1) 54%, rgba(97,8,55,1) 100%);
+    flex-direction: row;
+    
+    }
+    
+    .sidecontent{
+      height: 75vh;
+      width: 40vw;
+      background-color: rgb(38, 38, 144);
+      padding: 30px;
+      font-weight:light;
+      margin-top: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+      
+    }
+    
+    .flex1{
+      display: flex;
+    }
+    
+    .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%; 
+    }
+    .Form{
+      height: 75vh;
+      width: 40vw;
+      background-color: white;
+      padding: 30px;
+      font-weight:light;
+      margin-top: 20px;
+      /* border-radius: 10px 10px 0px 0px; */
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      flex: 1;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    
+    .form-group input {
+      width: 90%; 
+      padding: 8px;
+      border-radius: 4px;
+      gap: 10px;
+      
+    }
+    
+    .input-field {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background-color:#f5f2f2;
+      box-shadow: inset 1px 1px 1px #f5f2f2, 
+                  inset -1px -1px 1px #ffffff, 
+                  inset 1px -1px 1px #f5f2f2, 
+                  inset -1px 1px 1px #ffffff;
+      outline: none;
+    }
+    
+    .input-field[type="text"],
+    .input-field[type="email"],
+    .input-field[type="date"] {
+      padding: 12px !important;
+    }
+    
+    .radio-container input {
+      accent-color: green; 
+    }
+    
+    
+    .custom-button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      width: 10vw;
+      color: white;
+      border-radius: 8px;
+      background:green;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    
+    .custom-button:hover {
+      box-shadow: 2px 2px 4px #d1d1d1, 
+                  -2px -2px 4px #ffffff;
+    }
+    
+    .custom-button:active {
+      box-shadow: inset 2px 2px 4px #d1d1d1, 
+                  inset -2px -2px 4px #ffffff;
+    }
+    
+    .login-form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+    }
+    
+    .login{
+      width: 92%;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+     
+    
+    .login-form p span{
+      color: blue;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .btn{
+      margin-top: 30px;
+    }
+    
+    .btn1{
+      padding: 7px;
+      width: 10vw;
+      height: 6vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: green;
+      color: white;
+    }
+    
+    .home-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    }
+    
+    .error{
+      color: red;
+      font-size: 10px;
+    }
+    .input-error{
+      border: 1px solid red;
+    }
+    

@@ -2,12 +2,12 @@
 import "./App.css";
 import Register from "./components/register";
 // import Login from "./components/comp/login";
-import Signup from "./components/comp/register"
-import Login from "./components/comp/login";
+// import Signup from "./components/comp/register"
+// import Login from "./components/comp/login";
 // import Dashboard from "./components/comp/dashboard";
 import FinanceGoals from "./components/comp/financeGoals"
 import InvestmentTracker from "./components/comp/Investment"
-// import Login from "./components/login"
+import Login from "./components/login"
 import BudgetManager from "./components/comp/budget";
 import ExpenseManager from "./components/comp/Expenses";
 import SummaryAnalysis from "./components/comp/userstats";
